@@ -275,7 +275,7 @@ const Windsock = () => {
     <>
       <div className="center mt-28 flex flex-col">
         <div className="my-5 text-2xl font-medium">风向标</div>
-        <div className="mb-24 opacity-90">去到别去看看？</div>
+        <div className="mb-24 opacity-90">暂时没有内容哦，去别处看看吧</div>
         <ul className="flex flex-col flex-wrap gap-2 gap-y-8 opacity-80 lg:flex-row">
           {windsock.map((item, index) => {
             return (
