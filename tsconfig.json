@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "proxy": "https://jupiter-smile.cn/",
     "target": "ES2020",
     "lib": [
       "dom",
