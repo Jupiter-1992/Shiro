@@ -1,4 +1,8 @@
 {
+  "version": 1,
+  "rewrites": [
+    { "source": "https://shiro-two-pink.vercel.app", "destination": "https://jupiter-smile.cn/api/v2" }
+  ],
   "headers": [
     {
       "source": "/",
