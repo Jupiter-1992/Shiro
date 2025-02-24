@@ -1,7 +1,7 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "https://shiro-two-pink.vercel.app", "destination": "https://jupiter-smile.cn/api/v2" }
+    { "source": "https://shiro-two-pink.vercel.app/(.*)", "destination": "https://jupiter-smile.cn/api/v2" }
   ],
   "headers": [
     {
