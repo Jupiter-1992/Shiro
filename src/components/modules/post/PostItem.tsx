@@ -35,6 +35,7 @@ export const PostItem = memo<{ data: PostModel }>(function PostItem({ data }) {
             摘要： {data.summary}
           </p>
         )}
+        {/* markdown代码解析未处理
         <div className="relative overflow-hidden text-justify">
           {hasImage && (
             <div
@@ -48,7 +49,7 @@ export const PostItem = memo<{ data: PostModel }>(function PostItem({ data }) {
           <p className="break-all leading-loose text-gray-800/90 dark:text-gray-200/90">
             {displayText}
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className="post-meta-bar mt-2 flex select-none flex-wrap items-center justify-end gap-4 text-base-content/60">
